@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo-container img {
+    height: 50px;
+    transition: all;
+    transition-duration: 0.3s;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+  }
+  
+  .logo-container img:hover {
+    transform: scale(1.5);
+  }
